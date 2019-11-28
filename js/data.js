@@ -1,4 +1,4 @@
-"use strict";
+
 const account = [
     { month: 1, income: 200, expense: 50 },
     { month: 2, income: 50 },
