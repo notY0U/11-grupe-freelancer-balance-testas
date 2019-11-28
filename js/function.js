@@ -20,18 +20,18 @@ function renderAccount(accountList) {
 
     return document.querySelector('.table-content').innerHTML = HTML;
 }
-// function renderMonths(monthList) {
-//     let HTML = '';
+function renderMonth(monthList) {
+    let HTML = '';
 
-//     for (let i=0; i<monthList.length; i++) {
-//         const months = monthList[i];
+    for (let m=0; m<monthList.length; m++) {
+        const months = monthList[m];
     
-//         HTML += `${months}
-//        `;
-//     }
-//     // console.log(accountlist);
+        HTML += `${months.months}
+       `;
+    }
+    // console.log(list);
     
     
 
-//     return document.querySelector('.men').innerHTML = HTML;
-// }
+    return document.querySelector('.cell.men').innerHTML = HTML;
+}
